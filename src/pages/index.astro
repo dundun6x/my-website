@@ -1,0 +1,52 @@
+
+---
+import '../styles/global.css';
+import '../styles/layout.css';
+import '../styles/header.css';
+import '../styles/hero.css';
+import '../styles/footer.css';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#101010" />
+    <meta name="description" content="Personal website of dundun" />
+    <title>xxxxxx</title>
+    <script>
+      import '../scripts/name.ts';
+    </script>
+  </head>
+  <body>
+    <div class="panel">
+      <header>
+        <a class="site-name" href="/">sixx.fyi</a>
+        <nav aria-label="main navigation">
+          <a href="#projects">projects</a>
+          <a href="#notes">notes</a>
+          <a href="#contact">contact</a>
+        </nav>
+      </header>
+      <main>
+        <section class="hero">
+          <p class="eyebrow">personal website</p>
+          <h1 class="hero-title">
+            <span>by </span>
+            <span class="switching-name">xxxxxx</span>
+          </h1>
+          <p class="hero-description">
+            exploring the tools and the ways we use them. a place for my projects, notes,
+            and random thoughts.
+          </p>
+        </section>
+      </main>
+      <footer>
+        <span>© {new Date().getFullYear()} dundun⁶ˣ</span>
+        <a href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">
+          back to top ↑
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>

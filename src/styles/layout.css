@@ -1,0 +1,39 @@
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  max-width: 1000px;
+  margin-inline: auto;
+  background: rgb(16 16 16 / 65%);
+  border: 1px solid rgb(255 255 255 / 10%);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.panel main {
+  flex: 1;
+}
+
+.panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(
+    rgb(16 16 16 / 15%),
+    rgb(16 16 16 / 15%)
+  );
+  border-radius: inherit;
+}

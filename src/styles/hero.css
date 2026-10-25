@@ -1,0 +1,36 @@
+.hero {
+  position: relative;
+  padding: 48px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.eyebrow {
+  margin: 0 0 16px;
+  color: #b7f36b;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: clamp(42px, 8vw, 76px);
+  font-weight: 650;
+  line-height: 1.12;
+  letter-spacing: -0.055em;
+}
+
+.hero-description {
+  max-width: 540px;
+  margin: 24px 0 0;
+  color: #999;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 76px 20px 88px;
+  }
+}

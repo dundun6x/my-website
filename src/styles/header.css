@@ -1,0 +1,32 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 28px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+header nav a {
+  font-size: 14px;
+}
+
+.site-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 22px 20px;
+  }
+
+  header nav {
+    gap: 16px;
+  }
+}
