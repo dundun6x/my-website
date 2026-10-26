@@ -1,16 +1,7 @@
 .hero {
   position: relative;
-  padding: 48px;
   margin: 40px auto;
   max-width: 1000px;
-}
-
-.eyebrow {
-  margin: 0 0 16px;
-  color: #b7f36b;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
 }
 
 .hero-title {
@@ -21,11 +12,11 @@
   letter-spacing: -0.055em;
 }
 
-.hero-description {
+.hero-desc {
   max-width: 540px;
   margin: 24px 0 0;
   color: #999;
-  font-size: 16px;
+  font-size: var(--text-base);
   line-height: 1.8;
 }
 

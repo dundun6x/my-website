@@ -6,19 +6,30 @@ footer {
   margin-inline: auto;
 }
 
+section {
+  padding: 48px;
+}
+
 .panel {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  min-height: 100dvh;
+  min-height: calc(100vh - var(--panel-gap));
+  min-height: calc(100dvh - var(--panel-gap));
   max-width: 1000px;
-  margin-inline: auto;
+  margin: 0 auto;
   background: rgb(16 16 16 / 65%);
   border: 1px solid rgb(255 255 255 / 10%);
   border-radius: 16px;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+}
+
+@media (max-width: 600px) {
+  .panel {
+    min-height: calc(100vh - 40px);
+    min-height: calc(100dvh - 40px);
+  }
 }
 
 .panel main {
@@ -36,4 +47,12 @@ footer {
     rgb(16 16 16 / 15%)
   );
   border-radius: inherit;
+}
+
+.eyebrow {
+  margin: 0 0 16px;
+  color: var(--accent-green);
+  font-size: var(--text-small);
+  font-weight: 600;
+  letter-spacing: 0.12em;
 }

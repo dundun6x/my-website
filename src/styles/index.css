@@ -1,0 +1,14 @@
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: var(--panel-gap) 16px;
+  background: #101010 url("/images/background.jpg") center / cover fixed;
+
+  --panel-gap: 20px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px 12px;
+  }
+}

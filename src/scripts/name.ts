@@ -13,4 +13,4 @@ function animate() {
     }, i * 100);
   });
 }
-setInterval(animate, 3600);
+setInterval(animate, 3200);

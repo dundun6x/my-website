@@ -1,0 +1,43 @@
+.contact-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border-subtle);
+  color: inherit;
+  font-size: var(--text-base);
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.contact-row:last-child {
+  border-bottom: none;
+}
+
+.contact-name {
+  color: #e8e8e8;
+  font-weight: 500;
+  transition: color 160ms ease;
+}
+
+.contact-value {
+  color: var(--text-muted);
+  font-size: var(--text-small);
+  transition: color 160ms ease;
+}
+
+.contact-row:hover .contact-name,
+.contact-row:hover .contact-value {
+  color: var(--accent-orange);
+}
+
+@media (max-width: 600px) {
+  .contact {
+    padding: 32px 20px;
+  }
+}

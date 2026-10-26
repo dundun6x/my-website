@@ -1,9 +1,12 @@
 
 ---
 import '../styles/global.css';
+import '../styles/index.css';
 import '../styles/layout.css';
 import '../styles/header.css';
 import '../styles/hero.css';
+import '../styles/items.css';
+import '../styles/contact.css';
 import '../styles/footer.css';
 ---
 
@@ -35,10 +38,73 @@ import '../styles/footer.css';
             <span>by </span>
             <span class="switching-name">xxxxxx</span>
           </h1>
-          <p class="hero-description">
-            exploring the tools and the ways we use them. a place for my projects, notes,
-            and random thoughts.
+          <p class="hero-desc">
+            for my projects, notes, and random thoughts
           </p>
+        </section>
+        <section id="projects" class="projects">
+          <p class="eyebrow">projects</p>
+          <div class="item-list">
+            <div class="list-item">
+              <div class="item-header">
+                <span class="item-title">my-website</span>
+                <span class="item-status brewing">[brewing]</span>
+              </div>
+              <p class="item-desc">
+                this site.
+              </p>
+            </div>
+            <div class="list-item">
+              <div class="item-header">
+                <span class="item-title">dotfiles</span>
+                <span class="item-status brewing">[brewing]</span>
+              </div>
+              <p class="item-desc">
+                shell configs and tools carrying across machines.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="notes" class="notes">
+          <p class="eyebrow">notes</p>
+          <div class="item-list">
+            <div class="list-item">
+              <div class="item-header">
+                <span class="item-title">-</span>
+                <span class="item-status drafting">[drafting]</span>
+              </div>
+              <p class="item-desc">
+                coming soon.
+              </p>
+            </div>
+            <div class="list-item">
+              <div class="item-header">
+                <span class="item-title">-</span>
+                <span class="item-status drafting">[drafting]</span>
+              </div>
+              <p class="item-desc">
+                coming soon.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="contact">
+          <p class="eyebrow">contact</p>
+          <div class="contact-list">
+            <a
+              href="https://github.com/dundun6x"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-row"
+            >
+              <span class="contact-name">github</span>
+              <span class="contact-value">dundun6x ↗</span>
+            </a>
+            <a href="mailto:dundun6x@gmail.com" class="contact-row">
+              <span class="contact-name">email</span>
+              <span class="contact-value">dundun6x@gmail.com ↗</span>
+            </a>
+          </div>
         </section>
       </main>
       <footer>
