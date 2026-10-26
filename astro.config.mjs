@@ -23,4 +23,9 @@ export default defineConfig({
 			],
 		}),
 	],
+	vite: {
+    build: {
+      cssMinify: 'esbuild',
+    },
+  },
 });
