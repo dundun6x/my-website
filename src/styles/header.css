@@ -4,6 +4,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 28px 28px;
+  border-bottom: 1px solid var(--border-subtle);
 }
 
 header nav {
