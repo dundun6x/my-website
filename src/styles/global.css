@@ -23,6 +23,8 @@
   --accent-orange: #ff9f43;
   --text-muted: #7a7a7a;
   --border-subtle: rgb(255 255 255 / 8%);
+
+  --transition-fast: 60ms;
 }
 
 * {
@@ -35,13 +37,14 @@ body {
 }
 
 a {
+  padding: 16px 14px;
   color: inherit;
   text-decoration: underline transparent;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
   transition:
-    text-decoration-color 160ms ease,
-    text-underline-offset 160ms ease;
+    text-decoration-color var(--transition-fast) ease,
+    text-underline-offset var(--transition-fast) ease;
 }
 
 a:hover {

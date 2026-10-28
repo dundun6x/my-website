@@ -12,7 +12,7 @@
   color: inherit;
   font-size: var(--text-base);
   text-decoration: none;
-  transition: color 160ms ease;
+  transition: color var(--transition-fast) ease;
 }
 
 .contact-row:last-child {
@@ -22,13 +22,13 @@
 .contact-name {
   color: #e8e8e8;
   font-weight: 500;
-  transition: color 160ms ease;
+  transition: color var(--transition-fast) ease;
 }
 
 .contact-value {
   color: var(--text-muted);
   font-size: var(--text-small);
-  transition: color 160ms ease;
+  transition: color var(--transition-fast) ease;
 }
 
 .contact-row:hover .contact-name,

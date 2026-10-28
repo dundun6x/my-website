@@ -3,10 +3,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
-  padding: 28px;
+  padding: 12px 28px;
   border-top: 1px solid var(--border-subtle);
-  font-size: 14px;
+  font-size: var(--text-base);
 }
 
 footer a {

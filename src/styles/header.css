@@ -3,14 +3,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 28px 28px;
+  padding: 12px 28px;
   border-bottom: 1px solid var(--border-subtle);
 }
 
 header nav {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 14px;
 }
 
 header nav a {
